@@ -1,0 +1,196 @@
+@font-face {
+    font-family: geomanist_medium;
+    src: url(../Fonts/Geomanist-Medium_1.ttf);
+
+
+}
+
+@font-face {
+    font-family: geomanist_bold;
+    src: url(../Fonts/Geomanist-Bold_1.ttf);
+
+}
+
+@font-face {
+    font-family: geomanist_ultra;
+    src: url(../Fonts/Geomanist-Ultra_1.ttf);
+
+}
+
+@font-face {
+    font-family: geomanist_regular;
+    src: url(../Fonts/Geomanist-Regular.ttf);
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #1E1E1E;
+    color: #C3E2CC;
+    font-family: geomanist_regular;
+    height: 1800px;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: relative; 
+    top: 0;
+}
+
+.aboutText{
+    text-align: center;
+    position: absolute;
+    margin-left: 68%;
+    top: 120px;
+}
+
+.aboutText2{
+    text-align: center;
+    position: absolute;
+    top: 15vh;
+    
+}
+
+#aboutTitle{
+    font-size: 40px;
+}
+
+#aboutParagraph{
+    font-size: 17px;
+
+}
+
+i{
+    color: white;
+}
+
+#topIconHolder{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.headerImage{
+    width: 100%;
+    height: 90%;
+    font-size: 0px;
+}
+
+main{
+    width: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+
+.aap{
+    text-decoration: none;
+    color: #C3E2CC;
+}
+
+#nameAndTitle{
+    font-size: 30px;
+}
+
+li{
+    font-size: 25px;
+    display: inline-flex;
+    padding: 10px;
+
+}
+
+.topNav{
+    width: 98%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navRight{
+    display: block;
+    height: 100%;
+    right: 0;
+
+}
+
+.navLeft{
+    
+    height: 100%;
+} 
+
+.mainContainer{
+    width: 60%;
+    display: grid;
+}
+
+.mainContainer2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.mainTitle{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainTitle2{
+    margin-top: 50px;
+    font-size: 130px;
+    font-family: geomanist_medium;
+}
+
+.portfolioArticle{
+    width: 100%;
+    margin: 20px 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.articleImage{
+    height: auto;
+    width: 100%;
+}
+
+.articleContainer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.articleInnerImage{
+    width: 40%;
+    height: 100%;
+    margin: auto 0px;
+}
+
+.articleInnerRight{
+    width: 40%;
+    height: 100%;
+    
+}
+
+.articleTitle{
+    font-size: 30px;
+}
+
+.resumeContainer{
+    margin-top: 40px;
+}
+
