@@ -15,10 +15,17 @@
 Homestead.json
 Homestead.yaml
 npm-debug.log
+*.swp
+dump.rdb
 yarn-error.log
+.commit_hash
+.phpunit.result.cache
+.vscode
 /auth.json
 /.fleet
 /.idea
 /.nova
 /.vscode
 /.zed
+/.phpunit.cache/
+storage/*.csv
