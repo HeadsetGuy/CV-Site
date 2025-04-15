@@ -1,25 +1,25 @@
 @font-face {
     font-family: geomanist_medium;
-    src: url(../Fonts/Geomanist-Medium_1.ttf);
+    src: url(../fonts/Geomanist-Medium_1.ttf);
 
 
 }
 
 @font-face {
     font-family: geomanist_bold;
-    src: url(../Fonts/Geomanist-Bold_1.ttf);
+    src: url(../fonts/Geomanist-Bold_1.ttf);
 
 }
 
 @font-face {
     font-family: geomanist_ultra;
-    src: url(../Fonts/Geomanist-Ultra_1.ttf);
+    src: url(../fonts/Geomanist-Ultra_1.ttf);
 
 }
 
 @font-face {
     font-family: geomanist_regular;
-    src: url(../Fonts/Geomanist-Regular.ttf);
+    src: url(../fonts/Geomanist-Regular.ttf);
 
 }
 
@@ -38,7 +38,7 @@ body{
 header{
     width: 100%;
     height: auto;
-    position: relative; 
+    position: relative;
     top: 0;
 }
 
@@ -53,7 +53,7 @@ header{
     text-align: center;
     position: absolute;
     top: 15vh;
-    
+
 }
 
 #aboutTitle{
@@ -120,9 +120,9 @@ li{
 }
 
 .navLeft{
-    
+
     height: 100%;
-} 
+}
 
 .mainContainer{
     width: 60%;
@@ -183,7 +183,7 @@ li{
 .articleInnerRight{
     width: 40%;
     height: 100%;
-    
+
 }
 
 .articleTitle{

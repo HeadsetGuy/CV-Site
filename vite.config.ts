@@ -7,12 +7,11 @@ import { defineConfig } from 'vite';
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.tsx'],
+            input: ['resources/scss/app.scss', 'resources/js/app.tsx'],
             ssr: 'resources/js/ssr.tsx',
             refresh: true,
         }),
         react(),
-        tailwindcss(),
     ],
     esbuild: {
         jsx: 'automatic',
