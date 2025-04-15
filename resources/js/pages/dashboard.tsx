@@ -1,34 +1,12 @@
-import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
-import AppLayout from '@/layouts/app-layout';
-import { type BreadcrumbItem } from '@/types';
-import { Head } from '@inertiajs/react';
-
-const breadcrumbs: BreadcrumbItem[] = [
-    {
-        title: 'Dashboard',
-        href: '/dashboard',
-    },
-];
+import Nav from '@/pages/components/nav';
 
 export default function Dashboard() {
     return (
         <>
-
             <header>
-                <nav className="topNav">
-                    <div className="navLeft">
-                        <p id="nameAndTitle">
-                            JEROEN BERKHOF - GAME DESIGNER
-                        </p>
-                    </div>
-                    <div className="navRight">
-                        <ul>
-                            <li><a className="page-link" href="index.html">portfolio</a></li>
-                            <li><a className="page-link" href="resume.html">resume</a></li>
-                            <li><a className="page-link" href="projects.html">projects</a></li>
-                        </ul>
-                    </div>
-                </nav>
+              <Nav>
+
+              </Nav>
 
                 <div className="imageContainer">
                     <img className="headerImage" alt="header image" src="images/le_me.png" />
@@ -51,9 +29,7 @@ export default function Dashboard() {
                                                                                              aria-hidden="true"></i></a>
                                 <a href="mailto:jeroencem@gmail.com?Subject=Hello"><i className="fa fa-envelope"
                                                                                       aria-hidden="true"></i></a>
-
                             </div>
-
                         </p>
                     </div>
                 </div>
