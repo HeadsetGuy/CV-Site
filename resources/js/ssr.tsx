@@ -5,7 +5,7 @@ import ReactDOMServer from 'react-dom/server';
 import { type RouteName, route } from 'ziggy-js';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
-
+// @ts-expect-error
 createServer((page) =>
     createInertiaApp({
         page,
