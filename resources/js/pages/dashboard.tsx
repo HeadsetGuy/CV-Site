@@ -4,10 +4,7 @@ export default function Dashboard() {
     return (
         <>
             <header>
-              <Nav>
-
-              </Nav>
-
+              <Nav/>
                 <div className="imageContainer">
                     <img className="headerImage" alt="header image" src="images/le_me.png" />
                     <div className="aboutText">
@@ -24,12 +21,12 @@ export default function Dashboard() {
                             <br />
                             I am currently still working on improving myself while <br />
                             in search of a steady working environment.<br />
-                            <div id="topIconHolder">
+                            <span id="topIconHolder">
                                 <a href="https://www.linkedin.com/in/jeroen-b-4a2a93115/"><i className="fa fa-linkedin"
                                                                                              aria-hidden="true"></i></a>
                                 <a href="mailto:jeroencem@gmail.com?Subject=Hello"><i className="fa fa-envelope"
                                                                                       aria-hidden="true"></i></a>
-                            </div>
+                            </span>
                         </p>
                     </div>
                 </div>
