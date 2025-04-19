@@ -15,9 +15,9 @@ Route::get('/projects', function () {
     return Inertia::render('projects');
 })->name('projects');
 
-Route::get('/resume', function () {
+Route::get('/cv', function () {
     return Inertia::render('resume');
-})->name('resume');
+})->name('cv');
 
 
 require __DIR__.'/settings.php';
